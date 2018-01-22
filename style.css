@@ -1,0 +1,2548 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Roboto; arial;
+	z-index: 1;
+
+
+	
+
+
+
+}
+
+body {
+	background-image: url(Assets/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+#logincontent input[type=text] {
+	border-radius: 5px;
+	height: 20px;
+	width: 45%;
+	text-align: center;
+	margin-left: -2%;
+	margin-top: 3%;
+	border: solid 1px;
+	
+}
+
+#logincontent input[type=password] {
+	border-radius: 5px;
+	height: 20px;
+	width: 45%;
+	text-align: center;
+	margin-top: 3%;
+	border: solid 1px;€
+
+}
+
+#logincontent input[name=login] {
+	border-radius: 10px; 
+	background-color: lightgreen;
+	width: 70%;
+	height: 20px;
+	color: white;
+	box-shadow: none;
+	margin-right: 12%;
+	margin-top: 4%;
+
+
+}
+
+#Polltitle input[name=votesubmit] {
+	border-radius: 10px; 
+	background-color: green;
+	width: 70%;
+	height: 20px;
+	color: white;
+	margin-top: 4%;
+}
+
+
+#logodiv {
+	
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -1%;
+	margin-bottom: 1%;
+}
+
+#logo {
+	width: 500px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	
+
+
+}
+
+#img1 {
+	position: absolute;
+	width: 100px;
+	margin-left: 800px;
+	margin-top: -100px;
+	z-index: -4
+}
+
+#img2 {
+	position: absolute;
+	width: 150px;
+	margin-left: 80px;
+	margin-top: -137px;
+	z-index: -4
+}
+
+#flyingboy {
+	position: absolute;
+	width: 250px;
+	margin-left: -330px;
+	z-index: -4%;
+	margin-top: 300px;
+}
+
+#flyinggirl {
+	position: absolute;
+	width: 210px;
+	margin-left: 1070px;
+	z-index: -4%;
+	margin-top: 10px;
+}
+
+#sun {
+	position: absolute;
+	z-index: -2;
+	width: 700px;
+	margin-left: 190px;
+	text-align: center;
+	margin-top: -630px;
+	opacity: 0.95;
+
+}
+
+#container {
+	background-color: rgba(180, 238, 255 , 0.3);
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2%;
+	border-radius: 10px;
+	padding-top: 5px;
+
+}
+
+#headerdiv {
+
+	background-color: #fcc140;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	
+}
+
+#header {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	
+}
+
+#header a {
+	text-decoration: none;
+	color: white;
+	transition: ease-in-out 0.2s;
+
+
+}
+#header a:hover{
+	text-decoration: none;
+	font-size: 120%;
+	color: orange;
+	transition: ease-in-out 0.4s;
+	
+
+}
+
+
+#header li {
+	
+	display: inline-block;
+	margin-left: 4%;
+	
+
+}
+
+#lmrcontainer {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	
+	border-radius: 10px;
+}
+
+#left {
+	
+	width: 25%;
+	display: inline-block;
+	margin-left: 2.5%;
+	border-radius: 10px;
+	vertical-align: top;
+}
+
+	#login {
+		
+		border-radius: 10px;
+		background-color: rgba(255, 255, 255, 0.7);
+		padding-top: 4%;
+		padding-bottom: 3%;
+		box-shadow: 1px 1px 15px #92929299;
+	
+
+		
+	}
+
+	#logintitle {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #fcc140;
+		text-align: center;
+		margin-bottom: 2%;
+		color: white;
+	}
+
+	#logincontent {
+		margin-left: 8%;
+	}
+
+	#loggedin {
+		border-radius: 10px;
+		background-color: white;
+		padding-top: 4%;
+		padding-bottom: 4%;
+		
+		box-shadow: 1px 1px 15px #92929299;
+
+	}
+
+		#inloggad {
+			width: 100%;
+			display: inline-block;
+		}
+
+		#loggedincontent a {
+			margin-bottom: 20px;
+		}
+
+		#bla {
+			text-decoration: none;
+		}
+
+		#message {
+			position: absolute;
+			z-index: 3;
+			margin-left: 100px;
+			margin-top: -27px;
+			color: white;
+			background-color: red;
+			padding: 2px;
+			padding-left: 10px;
+			padding-right: 10px;
+			border-radius: 9999999%;
+			font-size: 80%;
+		}
+	
+
+	#logout a {
+		text-decoration: none;
+		font-size: 90%;
+	}
+
+	
+
+		#loggedincontent {
+			margin-left: 8%;	
+			width: 40%;
+			display: inline-block;
+			line-height: 25px;
+			background-color: #fcc140;
+			padding: 2%;
+			border-radius: 10px;
+			text-align: center;
+			height: auto;
+		}
+
+		#loggedincontent a {
+			font-size: 100%;
+			font-weight: bold;
+			color: white;
+			width: 30%;
+			padding: 2%;
+			transition: 0.25s;
+		}
+
+		#loggedincontent a:hover {
+			font-size: 110%;
+			
+			color: white;
+			width: 30%;
+			padding: 2%;
+			transition: 0.25s;
+		}
+
+		#leftprofilepic {
+			display: inline-block;
+			float: right;
+			margin-right: 15%;
+		}
+
+		#leftprofilepic img {
+			width: 60px;
+			height: 60px;
+			border-radius: 10px;
+			display: inline-block;
+		}
+
+		#logout {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: red;
+		text-align: center;
+		margin-bottom: 2%;
+		color: white;
+		margin-top: 10%;
+		}
+
+		#logout a {
+			color: white;
+		}
+
+		#usernametitle {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #fcc140;
+		text-align: center;
+		margin-bottom: 2%;
+		color: white;
+
+
+		}
+
+	#latestposts {
+		background-color: rgba(255, 255, 255, 0.8);
+		border-radius: 10px;
+		margin-top: 10%;
+		padding-top: 4%;
+		padding-bottom: 3%;
+		box-shadow: 1px 1px 15px #92929299;
+	}
+
+	#latestpoststitle h2{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #48b8ff;
+		text-align: center;
+		margin-bottom: 2%;
+		color: white;
+	}
+
+		#latestposts a {
+			text-decoration: none;
+			font-size: 90%;
+			margin-left: 8%;
+			transition: 0.15s;
+
+		}
+
+		#latestposts a:hover {
+		text-decoration: none;
+		font-size: 95%;
+		margin-left: 6%;
+		color: #fcc140;
+		font-size: 100%;
+		transition: 0.15s;
+	}
+
+#middle {
+	width: 40%;
+	display: inline-block;
+	margin-left: 2%;
+}
+
+#sliderframe {
+	background-color: rgba(255, 255, 255, 0.7);	
+	display: inline-block;
+	margin-left: 2%;
+	padding: 2%;
+	border-radius: 10px;
+
+	
+	box-shadow: 1px 1px 15px #92929299;
+
+}
+
+
+	#newstitle {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #40dffc;
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+
+
+	
+
+	#news {
+		background-color: rgba(255, 255, 255, 0.8);
+		display: inline-block;
+		border-radius: 10px;
+		padding-bottom: 2%;
+		box-shadow: 1px 1px 15px #92929299;
+		border-radius: 10px;
+		text-decoration: none;
+		color: white;
+		width: 95%;
+		margin-top: 4%;
+		margin-left: 3%;
+	
+
+	}
+
+	#news a {
+		text-decoration: none;
+		font-size: 95%;
+		
+		color: purple;
+		transition: 0.15s;
+	}
+
+	#news a:hover {
+		text-decoration: none;
+		font-size: 95%;
+		
+		color: #fcc140;
+		font-size: 95%;
+		transition: 0.15s;
+	}
+
+	#images img {
+		width: 100px;
+		height: 80px;
+		border: solid 1px;
+		border-color: #40dffc;
+		border-radius: 10px;
+	}
+
+	#imagetitle {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #fcc140;
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+
+
+	
+
+	#images {
+		background-color: rgba(255, 255, 255, 0.8);
+		display: inline-block;
+		border-radius: 10px;
+		padding-bottom: 2%;
+		box-shadow: 1px 1px 15px #92929299;
+		border-radius: 10px;
+		text-decoration: none;
+		color: white;
+		width: 95%;
+		margin-top: 4%;
+		margin-left: 3%;
+	
+
+	}
+
+	#middleimagediv {
+		
+		width: 314px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#newsrow {
+		margin-bottom: -5%;
+		color: white;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 10px;
+	}
+
+	#newsleft {
+	display: inline-block;
+	
+	width: 60%;
+	overflow: hidden;
+
+}
+
+#newsright {
+	display: inline-block;
+	color: orange;
+	float: right;
+	font-size: 85%;
+	
+	
+}
+
+
+
+#right {
+	
+	width: 25%;
+	display: inline-block;
+	margin-left: 2%;
+	border-radius: 10px;
+	vertical-align: top;
+	
+
+}
+
+	#poll {
+		background-color: rgba(255, 255, 255, 0.7);
+		box-shadow: 1px 1px 15px #92929299;
+		
+		border-radius: 10px;
+		padding-bottom: 4%;
+		margin-bottom: 10%;
+		padding-top: 1%;
+
+
+	}
+
+	#voted {
+		color: #ffc14a;
+	}
+
+	#Polltitle {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #ffc14a;
+		text-align: center;
+		margin-top: 2.8%;
+		margin-bottom: 2%;
+		color: white;
+	}
+
+	#pollquestion {
+		text-align: center;
+	}
+
+	#polloptions {
+		margin-left: 8%;
+		font-size: 90%;
+	}
+
+	#polloptionsradio {
+		float: right;
+		margin-right:15%;
+	}
+
+	#Logintovote {
+		margin-top: 2%;
+		text-align: center;
+		color: lightgrey;
+	}
+
+	#ranking {
+		background-color: rgba(255, 255, 255, 0.7);
+		box-shadow: 1px 1px 15px #92929299;
+		
+		border-radius: 10px;
+		padding-bottom: 4%;
+		margin-bottom: 10%;
+		padding-top: 1%;
+	}
+
+	#rankingtitle {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #ff4747;
+		text-align: center;
+		margin-top: 2.8%;
+		margin-bottom: 2%;
+		color: white;
+	}
+
+	#p1 {
+		margin-left: 6%;
+		margin-top: 3%;
+		
+		color: white;
+		width: 85%;
+		text-align: center;
+		padding: 1%;
+		border-radius: 10px;
+	}
+
+	#ranknummer {
+	width: 30%;
+	display: inline-block;
+	background-color: #ff4747;
+	border-radius: 10px 0px 0px 10px;
+}
+
+#ranknamn {
+	width: 60%;
+	display: inline-block;
+	background-color: #ff4747;
+	border-radius: 0px 10px 10px 0px;
+
+}
+
+#playerguildswap {
+	background-color: #48b8ff;
+	color: white;
+	width: 20%;
+	text-align: center;
+	padding: 0.2%;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+
+}
+
+#players {
+	display: inline-block;
+	background-color: #fcc140;
+	padding: 8%;
+	border-radius: 10px;
+	width: 31%;
+	color: white;
+	transition: 0.5s;
+}
+
+#players:hover {
+	display: inline-block;
+	background-color: white;
+	text-decoration-color: orange;
+	padding: 8%;
+	border-radius: 10px;
+	width: 31%;
+	color: #48b8ff;
+}
+
+
+
+
+
+#guilds {
+	display: inline-block;
+	background-color: #fcc140;
+	padding: 8%;
+	border-radius: 10px;
+	width: 31%;
+	color: white;
+	transition: 0.5s;
+}
+
+#guilds:hover {
+	display: inline-block;
+	background-color: white;
+	text-decoration-color: orange;
+	padding: 8%;
+	border-radius: 10px;
+	width: 31%;
+	color: #48b8ff;
+}
+
+#guilds a {
+	color: white;
+	text-decoration: none;
+}
+
+
+	
+
+
+	#profilediv {
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 65%;
+	display: inline-block;
+	margin-left: 2%;
+	border-radius: 10px;
+	vertical-align: top;
+	padding-bottom: 4%;
+	box-shadow: 1px 1px 15px #92929299;
+	}
+
+	#profilepic img {
+		width: 150px;
+		height: 150px;
+		border-radius: 10px;
+		
+		margin-top: 4%;
+
+	}
+
+	#profileusername {
+		text-align: center;
+		width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #fcc140;
+		text-align: center;
+		margin-top: 2.8%;
+		margin-bottom: 2%;
+		color: white;
+	}
+
+	#information {
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #48b8ff;
+		width: 85%;
+		padding: 2%;
+		color: white;
+		border-radius: 10px;
+	}
+
+	#favorites {
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #48b8ff;
+		width: 85%;
+		padding: 2%;
+		color: white;
+		border-radius: 10px;
+	}
+
+	#information p {
+		display: inline-block;
+
+	}
+
+	#biography {
+		margin-left: auto;
+		margin-right: auto;
+		width: 85%;
+		background-color: #48b8ff;
+		padding: 2%;
+		color: white;
+		border-radius: 10px;
+
+	
+
+	}
+
+	#Profilecommenttitlediv {
+		
+		margin-top: 4%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+		padding: 2%;
+		text-align: center;
+		background-color: #fcc140;
+		color: white;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+	}
+
+	#Profilemediadiv {
+		
+		margin-top: 4%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+		padding: 2%;
+		text-align: center;
+		background-color: #48b8ff;
+		color: white;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+	}
+
+	#profilecomment {
+		margin-top: 4%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #fcc140;
+		color: white;
+		width: 83%;
+		border-radius: 10px;
+		padding: 3%;
+	}
+
+	#profilecommentbox {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 4%;
+		
+		width: 506px;
+
+	
+		text-align: center;
+	}
+
+	#replytext {
+		resize: none;
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+	#forumdiv {
+
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	display: inline-block;
+	
+	border-radius: 10px;
+	vertical-align: top;
+	padding-bottom: 10%;
+	box-shadow: 1px 1px 15px #92929299;
+	z-index: 1;
+	
+
+	}
+
+	#forumdiv h1 {
+		text-align: center;
+		width: 90%;
+		padding: 2%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #48b8ff;
+		text-align: center;
+		margin-top: 2.8%;
+		margin-bottom: 6%;
+		color: white;
+	}
+
+
+	#forumwelcome {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -3%;
+		margin-bottom: 3%;
+		background-color: #7ac9fc;
+		padding: 1%;
+		border-radius: 10px;
+		color: white;
+	}
+
+	
+
+	#forumdiv a {
+		text-decoration: none;
+	}
+
+	#findback {
+		background-color: #fcc140;
+		padding: 1%;
+		border-radius: 10px;
+		margin-bottom: 2%;
+		width: 60%;
+		color: white;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+		text-align: center;
+	}
+
+	#findback p {
+		color: white;
+		margin-left: 2%;
+	}
+
+	#findback a {
+		color: white;
+	}
+
+	#categoryecho {
+		
+	}
+
+	#categorytitles {
+		margin-left: 3%;
+	}
+
+	#categoryname {
+		width: 30%;
+		display: inline-block;
+		margin-left: 3%;
+		background-color: #fcc140;
+		padding-left: 2%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		border-radius: 10px;
+		margin-top: -1%;
+
+		
+		
+	}
+
+	#forumlatesttitle {
+		display: inline-block;
+		width: 40%;
+		background-color: #fcc140;
+		padding-left: 2%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		border-radius: 10px;
+		margin-top: -1%;
+		vertical-align: top;
+		margin-left: 4%;
+		
+	}
+
+	#totalthreads {
+		display: inline-block;
+		width: 10%;
+		
+	}
+
+	#totalposts {
+		width: 20%;
+	}
+
+	#forumtop {
+		margin-left: 12%;
+	}
+
+	#ett {
+		display: inline-block;
+		margin-left: 1%;
+		background-color: #fcc140;
+		padding: 2%;
+		border-radius: 10px;
+		color: white;
+	}
+
+	#tva {
+		display: inline-block;
+		margin-left: 20%;
+		background-color: #fcc140;
+		padding: 2%;
+		border-radius: 10px;
+		color: white;
+	}
+
+	#tre {
+		display: inline-block;
+		margin-left: 24%;
+		background-color: #fcc140;
+		padding: 2%;
+		border-radius: 10px;
+		color: white;
+	}
+
+	#threaddiv {
+
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 65%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	vertical-align: top;
+	padding-bottom: 4%;
+	box-shadow: 1px 1px 15px #92929299;
+	margin-top: 0%;
+	margin-left: 2%;
+	padding-top: 1%;
+	
+	}
+
+	#threaddiv2 {
+		margin-left: 4%;
+		margin-top: 4
+
+
+	}
+
+	#threaddiv3 {
+		background-color: #7ac9fc;
+		color: white;
+		padding: 3%;
+		width: 90%;
+		border-radius: 10px;
+		margin-bottom: 4%;
+	}
+
+	#threaddiv2 a {
+		text-decoration: none;
+		
+	}
+
+	#threadreply {
+		background-color: #fcc140;
+		color: white;
+		width: 90%;
+		padding: 2%;
+		border-radius: 10px;
+	}
+
+	#a1234 a {
+		color: white;
+		text-decoration: none;
+	}
+
+	#categoryecho {
+		
+	
+
+		
+	}
+
+	#categoryecho a {
+		
+		color: white;
+		vertical-align: middle;
+
+		
+	}
+
+
+	#separation {
+		margin-top: 2%;
+		background-color: #7ac9fc;
+		width: 80%;
+		vertical-align: center;
+		border-radius: 10px;
+		padding-top: 3%;
+		color: white;
+		transition: ease-in-out 0.25s;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	
+
+
+
+	#categorydiv {
+
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	vertical-align: top;
+	padding-bottom: 4%;
+	box-shadow: 1px 1px 15px #92929299;
+	
+	}
+
+	#categorydiv2 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 4%;
+
+
+	}
+
+	#categorydiv2 a {
+		text-decoration: none;
+		
+	}
+
+	#categorytitle {
+		text-align: center;
+		width: 90%;
+		padding: 2%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #48b8ff;
+		text-align: center;
+		margin-top: 2.8%;
+		margin-bottom: 2%;
+		color: white;
+	}
+
+	#threadhighlight {
+	background-color: #7ac9fc;
+	padding: 2%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	margin-bottom: 2%;
+	border-radius: 10px;
+	
+}
+
+
+	#totalthreads {
+		margin-left: 5%;
+		background-color: #fcc140;
+		text-align: center;
+		width: auto;
+		padding: 2.4%;
+		vertical-align: top;
+		margin-top: -1%;
+		border-radius: 10px;
+	}
+
+	#createthread {
+		width: 20%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2%;
+		background-color: purple;
+		color: white;
+		border-radius: 10px;
+		margin-bottom: 2%;
+		margin-top: -2%;
+
+		
+		
+	}
+
+
+	#replybox {
+		margin-top: 4%;
+	}
+
+	#downloaddiv {
+		display: inline-block;
+		background-color: white;
+		border-radius: 10px;
+		width: 100%;
+		padding-bottom: 8%;
+		
+		box-shadow: 1px 1px 15px #92929299;
+	}
+
+	#forgotpassworddiv {
+		display: inline-block;
+		background-color: white;
+		border-radius: 10px;
+		width: 100%;
+		padding-bottom: 8%;
+		box-shadow: 1px 1px 15px #92929299;
+		text-align: center;
+	}
+
+	#forgotpassworddiv h1 {
+		background-color: #fcc140;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2%;
+		margin-top: 2%;
+	}
+
+	#forgotpassworddiv p {
+		background-color: #48b8ff;
+		width: 60%;
+		color: white;
+		border-radius: 10px;
+		margin: auto;
+		padding: 2%;
+	}
+
+	#recovermail {
+		width: 60%;
+		text-align: center;
+		height: 50px;
+		font-size: 200%;
+	}
+
+	#recoversubmit {
+		margin-top: 2%;
+		width: 40%;
+		text-align: center;
+		height: 50px;
+		font-size: 200%;
+		background-color: #fcc140;
+		color: white;
+		border-radius: 10px;
+		border: solid 0px;
+	}
+
+
+	#votediv {
+		display: inline-block;
+		background-color: white;
+		border-radius: 10px;
+		width: 68%;
+		padding-bottom: 8%;
+		margin-left: 2%;
+		box-shadow: 1px 1px 15px #92929299;
+	}
+
+	#innerdownloaddiv {
+		
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+
+
+	}
+
+	#innerdownloaddiv p {
+		text-align: center;
+		
+		
+	}
+
+	#innerdownloaddiv h1 {
+		background-color: #fcc140;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2%;
+	}
+
+	#innerdownloaddiv h2 {
+		background-color: #e3e3e3;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		padding: 2%;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5%;
+	}
+
+		#innerdownloaddiv a {
+		background-color: #48b8ff;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 4%;
+		text-decoration: none;
+		transition: ease-in-out 0.25s;
+		
+	}
+
+	#innerdownloaddiv a:hover {
+		background-color: #fcc140;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5%;
+		font-size: 120%;
+		text-decoration: none;
+		transition: ease-in-out 0.5s;
+		
+	}
+
+		#innervotediv {
+		
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 4%;
+
+
+	}
+
+	#innervotediv p {
+		text-align: center;
+		
+		padding-bottom: 6%;
+	}
+
+	#innervotediv h1 {
+		background-color: #fcc140;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#innervotediv h2 {
+		background-color: red;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10%;
+	}
+
+		#innervotediv a {
+		background-color: blue;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5%;
+		text-decoration: none;
+		transition: ease-in-out 0.25s;
+		
+	}
+
+	#innervotediv a:hover {
+		background-color: orange;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 8%;
+		font-size: 120%;
+		text-decoration: none;
+		transition: ease-in-out 0.5s;
+		
+	}
+
+
+
+	#Replyuserlink {
+		color: white;
+	}
+
+	#middlenews {
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 40%;
+	display: inline-block;
+	margin-left: 2%;
+	border-radius: 10px;
+	padding-bottom: 2%;
+	box-shadow: 1px 1px 15px #92929299;
+}
+
+#middlenews img {
+	max-width: 390px;
+	border-radius: 10px;
+	
+}
+
+#middlenewstitle {
+
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #40dffc;
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		color: white;
+}
+
+#middlenewstext {
+	width: 90%;
+	margin-top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: scroll;
+}
+
+
+
+
+
+#spd {
+	
+	position: absolute;
+	width: 300px;
+	z-index: -1;
+	margin-left: -10%;
+	margin-top: -10%;
+}
+
+#slider img {
+	border-radius: 10px;
+}
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 600px;
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-top: 15%;
+	border-radius: 10px;
+	padding: 10px;
+	height: 100px;
+	font-weight: bold;
+	margin-top: 8%;
+	
+}
+
+#logo2 {
+	width: 150px;
+	filter: grayscale(100%);
+	display: inline-block;
+	margin-left: 12%;
+	margin-bottom: 3%;
+	
+
+
+
+
+	
+	
+
+}
+
+#logo2div {
+	display: inline-block;	
+}
+
+#footermenu {
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 2%;
+
+	
+	
+}
+
+#footermenu ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 70%;
+	transition: 0.25s;
+	height: 10%;
+
+
+}
+
+#footermenu ul li a:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 70%;
+	transition: 0.25s;
+
+}
+
+#footermenu ul li {
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+
+
+}
+
+
+
+
+
+
+
+
+#footermenu3 {
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 2%;
+	
+	
+}
+
+#footermenu3 ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 70%;
+	transition: 0.25s;
+	height: 10%;
+
+
+}
+
+#footermenu3 ul li a:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 70%;
+	transition: 0.25s;
+
+}
+
+#footermenu3 ul li {
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+	
+
+}
+
+
+
+
+
+#footermenu2 {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10%;
+	margin-top: 2%;
+	
+	
+}
+
+#footermenu2 ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 70%;
+	transition: 0.25s;
+}
+
+#footermenu2 ul li a:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 70%;
+	transition: 0.25s;
+
+}
+
+#footermenu2 ul li {
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#bottompic {
+	width: 100%;
+	position: absolute;
+	margin-top: -20%;
+	z-index: -1;
+}
+
+
+#settings {
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 65%;
+	display: inline-block;
+	margin-left: 2%;
+	border-radius: 10px;
+	vertical-align: top;
+	padding-bottom: 10%;
+	box-shadow: 1px 1px 15px #92929299;
+	
+	
+}
+
+#settings h1 {
+	width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #fcc140;
+		text-align: center;
+		margin-bottom: 2%;
+		color: white;
+		margin-top: 2%;
+}
+
+
+#settingsform {
+	
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	padding: 2%;
+	border-radius: 10px;
+}
+
+#settingsform h2 {
+	margin-top: 8%;
+	margin-bottom: 2%;
+	color: white;
+	background-color: lightblue;
+	border-radius: 10px;
+}
+
+
+#ticket {
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 65%;
+	display: inline-block;
+	margin-left: 2%;
+	border-radius: 10px;
+	padding-bottom: 2%;
+	box-shadow: 1px 1px 15px #92929299;
+	
+	
+}
+
+#tickettop {
+	background-color: #fcc140;
+	color: white;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	padding-bottom: 2%;
+}
+
+#tickettext {
+	margin-left: 4%;
+}
+
+#tickettopuser {
+	margin-left: 4%;
+	color: white;
+	text-decoration: none;
+}
+
+#tickettop a {
+	text-decoration: none;
+}
+
+#ticketanswer {
+	background-color: #fcc140;
+	width: 50%;
+	margin-top: 2%;
+	margin-left: 6%;
+	border-radius: 10px;
+	padding: 1%;
+	color: white;
+	clear: both;
+
+}
+
+#ticketanswer2 {
+	background-color: lightblue;
+	width: 50%;
+	float: right;
+	margin-top: 2%;
+	margin-right: 6%;
+	border-radius: 10px;
+	padding: 1%;
+	color: white;
+	margin-bottom: 4%;
+	clear: both;
+
+
+}
+
+.ta2 {
+	background-color: blue;
+	
+
+}
+
+#apa {
+	background-color: #fcc140;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+
+}
+
+#settingsprofilepic img {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#settingsmediapic {
+	display: inline-block;
+	padding: 2%;
+}
+
+#settingsmediapic img {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+
+#settingsarea {
+
+	resize: none;
+	width: 100%;
+	height: 300px;
+
+}
+
+#imgfile {
+margin-left: 25%;
+}
+
+#imgsave {
+	width: 50%;
+	height: 30%;
+	height: 30px;
+	border-radius: 10px;
+	background-color: lightgreen;
+	color: white;
+	font-size: 100%;
+	border: 0px solid;
+
+}
+
+#ticket {
+	
+}
+
+#finong {	
+	
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+
+}
+
+#ticket h1 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: white;
+	background-color: #fcc140;
+	border-radius: 10px;
+	text-align: center;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#finong h2 {
+	margin-top: 8%;
+	margin-bottom: 2%;
+	color: white;
+	
+	border-radius: 10px;
+}
+
+
+
+#finished {
+	width: 45%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	float: left;
+	height: auto;
+
+}
+
+#finished a {
+	color: lightgreen;
+	text-decoration: none;
+}
+
+#finished h2 {
+	background-color: lightgreen;
+}
+
+
+
+#ongoing {
+	width: 45%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	float: right;
+	height: auto;
+	
+
+}
+
+#ongoing h2 {
+	background-color: lightblue;
+}
+
+#ongoing a {
+	color: lightblue;
+	text-decoration: none;
+}
+
+#newticket {
+	display: inline-block;
+	margin-top: 5%;
+	width: 100%;
+}
+
+#newticket h2{
+	
+	color: white;
+	background-color: #fcc140;
+	border-radius: 10px;
+	text-align: center;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%
+}
+
+#newticketarea {
+	
+
+	resize: none;
+	width: 70%;
+	height: 300px;
+
+
+}
+
+
+#ticketleft {
+	float: left;
+	background-color: orange;
+}
+
+#ticketright {
+	float: right;
+	background-color: blue;
+
+}
+
+
+
+#highlighttitle {
+	background-color: #fcc140;
+	display: inline-block;
+	color: white;
+	width: 40%;
+	padding: 2%;
+	border-radius: 10px;
+}
+
+
+#highlighttitle a{
+	color: white;
+}
+
+#threaddate {
+	display: inline-block;
+}
+
+#threaduser {
+	display: inline-block;
+}
+
+#removethread {
+	display: inline-block;
+	margin-left: 4%;
+	
+}
+
+#faqarea {
+	resize: none;
+	width: 800px;
+	height: 300px;
+}
+
+#adminpaneltitle {
+	background-color: #fcc140;
+	color: white;
+	padding: 1%;
+	width: 90%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+#backtofront {
+	background-color: #fcc140;
+	color: white;
+	padding: 1%;
+	width: 25%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.5s;
+
+}
+
+#backtofront:hover {
+	background-color: orange;
+	color: white;
+	padding: 1%;
+	width: 25%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.5s;
+	
+}
+
+#adminticketdiv {
+	border-radius: 10px;
+	
+	text-align: center;
+	width: 90%;
+	padding: 1%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#adminticketdiv h2 {
+	background-color: #fcc140;
+	color: white;
+	padding: 1%;
+	width: 90%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+#adminfinished {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 1%;
+}
+
+	#adminfinished h3 {
+		background-color: lightgreen;
+		color: white;
+		padding: 1%;
+		border-radius: 10px;
+	}
+
+	#adminfinished a {
+		text-decoration: none;
+	}
+
+#adminongoing {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 1%;
+}
+
+	#adminongoing h3 {
+		background-color: lightblue;
+		color: white;
+		padding: 1%;
+		border-radius: 10px;
+	}
+
+	#adminongoing a {
+		text-decoration: none;
+	}
+
+#admincreatenews {
+	margin-top: 8%;
+}
+
+#admincreatenews h2 {
+	background-color: #fcc140;
+	color: white;
+	padding: 1%;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+#createnewsarea {
+	resize: none;
+	width: 400px;
+	height: 300px;
+}
+
+#createnewstitle {
+	resize: none;
+	width: 200px;
+	height: 20px;
+}
+
+#createnewssubmit {
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: green;
+	color: white;
+	font-size: 140%;
+	border: solid 0px;
+	margin-top: 2%;
+}
+
+#useractivation {
+	margin-top: 8%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#useractivation h2 {
+	background-color: #fcc140;
+	color: white;
+	padding: 1%;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+#activateuser {
+	width: 35%;
+	display: inline-block;
+	background-color: lightgreen;
+	color: white;
+	padding: 1%;
+	border-radius: 10px;
+
+
+}
+
+#deactivateuser {
+	display: inline-block;
+	width: 35%;
+	display: inline-block;
+	background-color: red;
+	color: white;
+	padding: 1%;
+	border-radius: 10px;
+}
+
+#faqdiv {
+	margin-top: 8%;
+}
+
+#faqdiv h2 {
+	background-color: #fcc140;
+	color: white;
+	padding: 1%;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+
+}
+
+#backtohome {
+	text-decoration: none;
+	color: white;
+	background-color: lightblue;
+	padding: 2%;
+	border-radius: 10px;
+}
+
+#realfaqdiv {
+	
+	background-color: white;
+	border-radius: 10px;
+	width: 95%;
+	padding-bottom: 8%;
+	margin-left: auto;
+	margin-right: auto;	
+	box-shadow: 1px 1px 15px #92929299;
+	padding-top: 2%;
+}
+
+#realfaqtext {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	font-size: 90%;
+		
+}
+
+#faqquestion {
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+#realfaqdiv h1 {
+	background-color: #fcc140;
+	color: white;
+	padding: 1%;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;	
+}
+
+#ticketanswertext {
+	resize: none;
+	width: 400px;
+	height: 100px;
+	margin-top: 4%;
+
+
+	
+}
+
+#ticketanswersubmit {
+	margin-top: 2%;
+	color: white;
+	background-color: #fcc140;
+	padding: 2%;
+	border-radius: 10px;
+	border: solid 0px;
+	font-size: 90%;
+}
+
+	#register {
+
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	display: inline-block;
+	
+	border-radius: 10px;
+	vertical-align: top;
+	padding-bottom: 10%;
+	box-shadow: 1px 1px 15px #92929299;
+	z-index: 1;
+	
+
+	}
+
+	#registertitle {
+		text-align: center;
+		width: 90%;
+		padding: 2%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+		background-color: #fcc140;
+		text-align: center;
+		margin-top: 2.8%;
+		margin-bottom: 2%;
+		color: white;
+	}
+
+	#registerinfo {
+		text-align: center;
+		font-size: 85%;
+	}
+
+	#registerform {
+		text-align: center;
+		margin-top: 4%;
+	}
+
+	#registerinput {
+		width: 50%;
+		height: 30px;
+		margin-bottom: 2%;
+		text-align: center;
+		border-radius: 10px;
+		font-size: 150%;
+		border: solid 1px;
+		border-color: white;
+		color: white;
+		background-color: #48b8ff;
+
+	}
+
+	#registercheckbox {
+		font-size: 85%;
+		margin-top: 2%;
+	}
+
+	#registersubmit {
+		font-size: 150%;
+		margin-top: 4%;
+		width: 400px;
+		height: 40px;
+		background-color: #ffc14a;
+		color: white;
+		border-radius: 10px;
+	}
+
+	#profilemediawrapper {
+		
+		width: 73%;
+		margin-bottom: 12%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#profilemedia {
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		margin: 2%;
+
+	}
+
+	#profilemedia img {
+		width: 150px;
+		height: 150px;
+		border-radius: 10px;
+		border: 2px;
+		display: inline-block;
+	}
+
+	#mediadiv {
+		display: inline-block;
+		background-color: white;
+		border-radius: 10px;
+		width: 100%;
+		padding-bottom: 8%;	
+		box-shadow: 1px 1px 15px #92929299;
+	}
+
+	#mediadiv h1 {
+		background-color: #fcc140;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	#mediadiv h2 {
+		background-color: #fcc140;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		
+		margin-bottom: 2%;
+	}
+
+	#mediapoppicwrap {
+		display: inline-block;
+		
+		border-radius: 10px;
+		margin-left: 2%;
+		overflow: hidden;
+		padding: 1%;
+		background-color: #fcc140;
+		text-align: center;
+		color: white;
+		vertical-align: middle;
+		margin-top: 2%;
+	}
+
+
+
+	#mediaimagewrapper {
+		width: 100%;
+		margin-left: 4%;	
+		background-color: #48b8ff;
+		width: 95%;
+		margin: auto;
+		padding: 2%;
+		border-radius: 10px;
+		height: 300px;
+		overflow: scroll;
+		margin-bottom: 4%;
+		
+	}
+
+	#mediapoppic {
+		width: 150px;
+		height: 150px;
+		border-radius: 10px;
+		display: inline-block;
+
+	}
+
+	#rankingwrapper {
+		display: inline-block;
+		background-color: white;
+		border-radius: 10px;
+		width: 100%;
+		padding-bottom: 8%;	
+		box-shadow: 1px 1px 15px #92929299;
+	}
+
+	#rankingwrapper h1 {
+		background-color: #ff4747;
+		padding: 2%;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	#rankingnamewrap {
+		
+		margin-bottom: 1%;
+		width: 100%;
+		
+		
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#ranknum {
+		background-color: #ff4747;
+		padding: 2%;
+		display: inline-block;
+		border-radius: 10px;
+		font-size: 130%;
+		font-weight: bold;
+		color: white;
+		margin-left: 4%;
+	}
+
+	#rankingusername {
+		background-color: #48b8ff;
+		color: white;
+		text-align: center; 
+		width: 70%;
+		padding: 1%;
+		margin: auto;
+		border-radius: 10px;
+		font-size: 100%;
+		display: inline-block;
+		float: right;
+		margin-right: 14%;
+		margin-top: 1.2%;
+		
+
+	}
+
+#onlinewrapper {
+	background-color: #48b8ff;
+	color: white;
+	width: 80px;
+	padding: 0.2%;
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	margin-left: 500px;
+	border-radius: 10px;
+	margin-top: -50px;
+
+}
+
+#online {
+	background-color: yellow;
+	width: 15px;
+	height: 15px;
+	border-radius: 10000px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	margin-left: 8%;
+	margin-top: 2%;
+}
+
+#offline {
+	background-color: red;
+	width: 15px;
+	height: 15px;
+	border-radius: 10000px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	margin-left: 8%;
+	margin-top: 2%;
+}
+
+#usersonline {
+
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 7%;
+	width: 30px;
+	float: right;
+}
+
+
+#messagesdiv {
+		display: inline-block;
+		background-color: white;
+		border-radius: 10px;
+		width: 100%;
+		padding-bottom: 8%;
+		
+		box-shadow: 1px 1px 15px #92929299;
+
+		
+	}
+
+#messagesdiv h1 {
+		background-color: #fcc140;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2%;
+		margin-top: 2%;
+		margin-bottom: 3%;
+	}
+
+	#messagesdiv h2 {
+		background-color: #48b8ff;
+		color: white;
+		
+		border-radius: 10px;
+		width: 50%;
+		margin-left: 4%;
+		padding: 1%;
+		margin-bottom: 2%;
+	}
+
+	#messagesdiv a {
+		color: white;
+		text-decoration: none;
+	}
+
+
+#messagediv {
+		display: inline-block;
+		background-color: white;
+		border-radius: 10px;
+		width: 100%;
+		padding-bottom: 4%;
+		margin: auto;
+		box-shadow: 1px 1px 15px #92929299;
+
+		
+	}
+
+
+	#messagediv h1 {
+		background-color: #fcc140;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2%;
+		margin-top: 2%;
+		margin-bottom: 3%;
+	}
+
+	#messageleft {
+		background-color: #fcc140;
+		display: inline-block;
+		float: left;
+		clear: both;
+		color: white;
+		margin-bottom: 2%;
+		margin-left: 4%;
+		padding: 1%;
+		border-radius: 10px;
+	}
+
+	#messageright {
+		background-color: #48b8ff;
+		display: inline-block;
+		float: right;
+		clear: both;
+		color: white;
+		margin-bottom: 2%;
+		margin-right: 4%;
+		padding: 1%;
+		border-radius: 10px;
+	}
+
+	#messageformdiv {
+		
+	}
+
+	#messageform {
+		clear: both;
+		margin-top: 8%;
+
+		
+		
+	}
+
+	#messageform textarea {
+		resize: none;
+		width: 500px;
+		height: 200px;
+		
+
+	}
+
+	#video {
+		
+		border-radius: 10px;
+		overflow: hidden;
+		width: 95%;
+		margin: auto;
+		height: 20%;
+
+	}
+
+	#video iframe {
+		margin-left: -1%;
+	}

@@ -1,0 +1,230 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Spectral SC', serif;
+
+}
+
+#logo {
+	
+	margin-left: 150px;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+#headerul {
+	text-decoration: none;
+	color: black;
+	text-decoration: none;
+}
+
+#container {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	border-right: solid 1px;
+	border-left: solid 1px;
+	border-bottom: solid 1px;
+	border-bottom-left-radius: 10px ;
+	border-bottom-right-radius: 10px ;	
+}
+
+#menu {
+	border-bottom: solid 1px;
+	padding: 1px;
+
+}
+
+#menu ul li {
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 0px;
+	padding-top: 0px;
+
+
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: black;
+	transition: 0.5s;
+	padding: 5%;
+	vertical-align: middle;
+}
+
+#menu ul li a:hover {
+	text-decoration: none;
+	color: white;
+	
+	transition: 0.5s;
+	vertical-align: middle;
+	background-color: lightgrey;
+	padding: 5%;
+	border-radius: 5px;
+
+}
+
+#outerheader {
+	width: 100%;
+	background-color: #e9e9e9;
+	border-bottom: 1px solid;
+	
+}
+#header {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#header img {
+	vertical-align: middle;
+	width: 300px;
+
+}
+
+#headerul {
+	width: 400px;
+	display: inline-block;
+	margin-left: 100px;
+
+}
+
+#headerul ul {
+	color: black;
+	text-decoration: none;
+}
+
+#headerul ul li {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#headerul ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 170%;
+	transition: 0.23s;
+
+}
+
+	#headerul ul li a:hover {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 200%;
+	transition: 0.25s;
+
+}
+
+#produkt {
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 20px;
+
+}
+
+#produkt p {
+	margin-left: 2%;
+	
+
+}
+
+#produkt img {
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#pris {
+	margin-top: -10%;
+}
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1%;
+	width: 800px;
+	background-color: #e9e9e9;
+	margin-top: 1%;
+	border-radius: 5px;
+}
+
+#logo2 {
+	width: 200px;
+	display: inline-block;
+	margin-bottom: 20px;
+	
+	
+
+}
+
+#logo2div {
+	display: inline-block;	
+}
+
+#footermenu {
+	display: inline-block;
+	
+}
+
+#footermenu ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 70%;
+	transition: 0.25s;
+}
+
+#footermenu ul li a:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 70%;
+	transition: 0.25s;
+
+}
+
+#footermenu ul li {
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#footermenu2 {
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+#footermenu2 ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 70%;
+	transition: 0.25s;
+}
+
+#footermenu2 ul li a:hover {
+	color: white;
+	text-decoration: none;
+	font-size: 70%;
+	transition: 0.25s;
+
+}
+
+#footermenu2 ul li {
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#lotta {
+	width: 15%;
+	margin-left: 9%;
+	margin-bottom: 3%;
+	border-radius: 100px;
+}
+
+
